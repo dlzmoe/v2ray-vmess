@@ -24,3 +24,14 @@ bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
 列表会出现一个ip，就是 v2ray 了，右键设为活动服务器。然后右键桌面右下角的小图标 `系统代理` > `自动配置系统代理` ，点击即可，小图标变成红色说明运行成功。
 
 可以打开 Google 试一下了。
+
+
+## 其他
+
+但是在用过一段时间后会偶尔失效，重新执行下面的脚本
+
+```shell
+bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
+```
+
+重新获取 vmess 然后放到 v2rayN 即可
