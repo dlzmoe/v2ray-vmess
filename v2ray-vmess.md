@@ -10,7 +10,7 @@ https://v2raytech.com/v2ray-one-click-script-with-mask/
 
 Bitvise连接Linux服务器教程 是上面的第一个链接，根据指示下载，然后连接服务器即可。
 
-根据教程的指示，成功连接后执行脚本
+根据教程的指示，成功连接后执行脚本。
 
 ```shell
 yum install -y curl
@@ -28,10 +28,10 @@ bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
 
 ## 其他
 
-但是在用过一段时间后会偶尔失效，重新执行下面的脚本
+但是在用过一段时间后会偶尔失效，重新执行下面的脚本。
 
 ```shell
 bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
 ```
 
-重新获取 vmess 然后放到 v2rayN 即可
+重新获取 vmess 然后放到 v2rayN 即可。
