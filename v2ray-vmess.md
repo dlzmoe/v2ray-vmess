@@ -18,7 +18,7 @@ Bitvise连接Linux服务器教程 是上面的第一个链接，根据指示下�
 
 直接下载脚本软件：[https://netfiles.pw/download.php?filename=/BvSshClient-Inst.exe](https://netfiles.pw/download.php?filename=/BvSshClient-Inst.exe)
 
-填入服务器的ip、端口号(默认是22，搬瓦工默认不是22，请从后台查看)、用户名(默认是root)，`intial method` 选 `password` ，在下面输入框输入密码（服务器密码在管理页面查看），同时勾选 `sotre encrypted password in profile` 。填好后建议点击左侧的 `save profile as` 按钮保存配置，下次使用时无需再填写。确认无误后，点击左下角的登录按钮，开始连接服务器。
+填入服务器的ip、端口号(默认是22，搬瓦工默认不是22，请从后台查看)、用户名(默认是root)，`intial method` 选 `password` ，在下面输入框输入密码（服务器密码在管理页面查看），同时勾选 `sotre encrypted password in profile` 。确认无误后，点击左下角的登录按钮，开始连接服务器。
 
 根据教程的指示，连接ssh服务器。成功连接后执行脚本。
 
@@ -29,7 +29,11 @@ yum install -y curl
 # bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
 # 脚本已失效
 
-bash <(curl -s -L https://git.io/v2ray.sh)
+# 不可用
+# bash <(curl -s -L https://git.io/v2ray.sh)
+
+# 可用 https://github.com/wulabing/V2Ray_ws-tls_bash_onekey
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
 ```
 
 
@@ -42,13 +46,3 @@ bash <(curl -s -L https://git.io/v2ray.sh)
 
 可以打开 Google 试一下了。
 
-
-## 其他
-
-但是在用过一段时间后会偶尔失效，重新执行下面的脚本。
-
-```shell
-bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
-```
-
-重新获取 vmess 然后放到 v2rayN 即可。
