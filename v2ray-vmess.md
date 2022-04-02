@@ -25,8 +25,11 @@ Bitvise连接Linux服务器教程 是上面的第一个链接，根据指示下�
 执行安装脚本
 ```shell
 yum install -y curl
-bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/v2ray.sh)
+# bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/v2ray.sh)
 # bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
+# 脚本已失效
+
+bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 
 
