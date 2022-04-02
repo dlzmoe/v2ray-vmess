@@ -22,10 +22,14 @@ Bitvise连接Linux服务器教程 是上面的第一个链接，根据指示下�
 
 根据教程的指示，连接ssh服务器。成功连接后执行脚本。
 
+执行安装脚本
 ```shell
 yum install -y curl
-bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
+bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/v2ray.sh)
+# bash <(curl -sL https://s.hijk.art/centos_install_v2ray2.sh)
 ```
+
+
 
 然后一直回车就可以了，最后会得到一个 vmess.
 
